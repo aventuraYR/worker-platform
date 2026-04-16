@@ -5,6 +5,7 @@ public class VaultConfiguration
     public string Address    { get; set; } = string.Empty;
     public string MountPoint { get; set; } = string.Empty;
     public string SecretPath { get; set; } = string.Empty;
+    public VaultRuntimeOptions Runtime { get; set; } = new();
 
     public string Token =>
         Environment.GetEnvironmentVariable("VAULT_APP_TOKEN")
@@ -25,5 +26,7 @@ public class VaultConfiguration
         if (string.IsNullOrWhiteSpace(SecretPath))
             throw new InvalidOperationException(
                 "Vault:SecretPath no está configurado en appsettings.json");
+
+        Runtime.Validate();
     }
 }
