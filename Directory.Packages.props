@@ -1,0 +1,28 @@
+<!-- Directory.Packages.props -->
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Extensions.Hosting"                   Version="10.0.5" />
+    <PackageVersion Include="VaultSharp"                                     Version="1.17.5.1" />
+    <PackageVersion Include="Serilog.Extensions.Hosting"                     Version="10.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Grafana.Loki"                     Version="8.3.2" />
+    <PackageVersion Include="Serilog.Sinks.Console"                          Version="6.1.1" />
+    <PackageVersion Include="Serilog.Enrichers.Environment"                  Version="3.0.1" />
+    <PackageVersion Include="Serilog.Enrichers.Context"                      Version="4.6.5" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience"           Version="10.4.0" />
+    <PackageVersion Include="Polly.Extensions"                               Version="8.6.6" />
+    <PackageVersion Include="Microsoft.Data.SqlClient"                       Version="7.0.0" />
+    <PackageVersion Include="Dapper"                                         Version="2.1.72" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks"  Version="10.0.5" />
+    <PackageVersion Include="System.ServiceModel.Http"                       Version="8.1.2" />
+    <PackageVersion Include="System.ServiceModel.NetTcp"                     Version="8.1.2" />
+    <PackageVersion Include="System.ServiceModel.Primitives"                 Version="8.1.2" />    
+    <PackageVersion Include="WorkerPlatform.Core"                            Version="1.0.1" />
+    <PackageVersion Include="ClosedXML"                                      Version="0.105.0" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+</Project>

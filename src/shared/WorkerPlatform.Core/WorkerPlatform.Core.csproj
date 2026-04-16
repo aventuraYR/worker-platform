@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <Authors>WorkerPlatform</Authors>
+    <Description>Paquete agregador de capacidades compartidas para WorkerPlatform</Description>
+    <PackageTags>workerplatform;core;shared;aggregator</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WorkerPlatform.Core.Configuration\WorkerPlatform.Core.Configuration.csproj" />
+    <ProjectReference Include="..\WorkerPlatform.Core.Logging\WorkerPlatform.Core.Logging.csproj" />
+    <ProjectReference Include="..\WorkerPlatform.Core.Resilience\WorkerPlatform.Core.Resilience.csproj" />
+    <ProjectReference Include="..\WorkerPlatform.Core.Health\WorkerPlatform.Core.Health.csproj" />
+    <ProjectReference Include="..\WorkerPlatform.Core.Hosting\WorkerPlatform.Core.Hosting.csproj" />
+  </ItemGroup>
+</Project>

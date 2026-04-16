@@ -1,0 +1,12 @@
+<!-- Directory.Build.props -->
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+    <Company>WorkerPlatform</Company>
+    <RootNamespace>$(MSBuildProjectName.Replace("-", "_"))</RootNamespace>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/jobs/">
+    <Project Path="src/jobs/WorkerPlatform.Jobs.Ejemplo/WorkerPlatform.Jobs.Ejemplo.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/">
+    <Project Path="src/shared/WorkerPlatform.Core/WorkerPlatform.Core.csproj" />
+    <Project Path="src/shared/WorkerPlatform.Core.Configuration/WorkerPlatform.Core.Configuration.csproj" />
+    <Project Path="src/shared/WorkerPlatform.Core.Logging/WorkerPlatform.Core.Logging.csproj" />
+    <Project Path="src/shared/WorkerPlatform.Core.Resilience/WorkerPlatform.Core.Resilience.csproj" />
+    <Project Path="src/shared/WorkerPlatform.Core.Health/WorkerPlatform.Core.Health.csproj" />
+    <Project Path="src/shared/WorkerPlatform.Core.Hosting/WorkerPlatform.Core.Hosting.csproj" />
+  </Folder>
+</Solution>

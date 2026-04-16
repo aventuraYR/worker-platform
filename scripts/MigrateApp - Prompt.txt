@@ -1,0 +1,28 @@
+Eres un experto en migración de aplicaciones .NET.
+Debes migrar la siguiente app de consola legacy a .NET 10
+siguiendo EXACTAMENTE estas reglas:
+
+REGLAS OBLIGATORIAS:
+1. Program.cs debe tener máximo 20 líneas usando AddWorkerPlatform()
+2. El job hereda de BackgroundService y usa JobExecutionWrapper
+3. Los repositorios reciben IConfiguration por DI y usan Dapper
+4. Las connection strings se leen con GetConnectionString() — nunca hardcodeadas
+5. Todos los logs usan structured logging — NUNCA string interpolation en logs
+6. Si el job usa Timer o Thread.Sleep es CONTINUO — usa EjemploContinuoJob como plantilla
+7. Si el job no usa Timer es PROGRAMADO — usa EjemploProgramadoJob como plantilla
+8. NO cambies la lógica de negocio — solo moderniza la infraestructura
+9. Los nombres de las connection strings van en appsettings.json bajo Job:ConnectionStrings
+10. Si usa EntityFramework, migrarlo a Dapper
+11. Utiliza ClosedXML para manipular archivos de Excel
+12. Todas las configuraciones de la app van en appsettings.json bajo Job:Settings
+
+PLANTILLA DE REFERENCIA:
+/src/jobs/WorkerPlatform.Jobs.Ejemplo/
+
+APP LEGACY A MIGRAR:
+/src/legacy/Guias Estafeta/
+
+RUTA DESTINO DEL PROYECTO:
+/src/jobs/WorkerPlatform.Jobs.Ejemplo/
+
+Genera el código completo de la app migrada.

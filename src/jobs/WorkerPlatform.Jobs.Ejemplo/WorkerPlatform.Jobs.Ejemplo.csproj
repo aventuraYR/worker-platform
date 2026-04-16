@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" />
+    <PackageReference Include="Dapper" />
+    <PackageReference Include="WorkerPlatform.Core" />
+  </ItemGroup>
+</Project>
