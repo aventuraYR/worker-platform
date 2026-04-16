@@ -2,6 +2,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" />
     <PackageReference Include="Dapper" />
-    <PackageReference Include="WorkerPlatform.Core" />
+    <!--<PackageReference Include="WorkerPlatform.Core" />-->
+    <ProjectReference Include="..\..\shared\WorkerPlatform.Core\WorkerPlatform.Core.csproj" />
   </ItemGroup>
 </Project>
